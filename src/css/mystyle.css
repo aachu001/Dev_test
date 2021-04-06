@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    
+}
+.nav-content {
+    line-height: 2rem;
+    width: fit-content;
+    flex: min-content;
+    
+}
+
+.contact-btn{
+    justify-content: flex-end;
+    padding: .75rem;
+    border: 2px solid #ffffff;
+    height: min-content;
+}
+.contact-btn:hover{
+    color: #eeff00;
+    cursor: pointer;
+}
+.menu-item{
+    color: #ff0000;
+    text-decoration: none;
+    display: flex;
+}
+.active{
+    color: #00ff2a;
+}
+.menu-item:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 716px) {
+    .navbar{
+        flex-direction: column;
+    }
+} 
